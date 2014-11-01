@@ -43,7 +43,7 @@ unsafeWindow.msuParts["themeEffects"] = function(ScratchUserscript){
 	if(isEnabled && settings.scrollEffect){
 		$("#pagewrapper").css('perspective', '800px');
 		$("#content").css({'transform-style': 'preserve-3d', 'transition': 'transform 0.5s', 'backface-visibility': 'hidden'});
-		$("#topnav").css("z-index", "9999999");
+		//$("#topnav").css("z-index", "9999999");
 		var t, l = (new Date()).getTime(), scrolling = false;
 		initialAmt = 0;
 		$(window).scroll(function(){
